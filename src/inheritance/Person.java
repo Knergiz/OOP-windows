@@ -18,6 +18,10 @@ public class Person {
     private String dob;
     private String ssn;
 
+    public Person() {
+
+    }
+
     public void sleep(){
         System.out.println("Person sleeps");
     }
