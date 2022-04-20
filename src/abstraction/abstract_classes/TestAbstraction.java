@@ -25,7 +25,7 @@ public class TestAbstraction {
             if (element.price > price) max = element;
         }
         System.out.println("The most expensive phone is = " + max.getClass().getSimpleName());
-
+        System.out.println("The color of the most expensive phone is = " + max.color);
         int conv = 0;
         for (Phone element : phones){
             if (element.isConvertible()) conv++;
